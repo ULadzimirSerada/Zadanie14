@@ -15,7 +15,7 @@ public class Zadanie14 {
         int maxNumber = array[0];
         int maxIndex = 0;
 
-        for (int i = 0; i < array.length; i++){
+        for (int i = 1; i < array.length; i++){
             if (array[i] < minNumber) {
                 minNumber = array[i];
                 minIndex = i;
